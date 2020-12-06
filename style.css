@@ -1,0 +1,57 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nerko One', cursive;
+   }
+.main{
+   height: 100vh;
+   background-image: linear-gradient(#c9d6ff,#e2e2e2);
+
+}
+.text,.image{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.text{
+   font-size: 100px;
+   animation-name: textbit;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+img{
+   width: 400px;
+   height: 400px;
+   animation-name: hartbit;
+   animation-duration: 5s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+@keyframes textbit{
+   0%{font-size: 100px;}
+   20%{font-size: 120px;}
+   40%{font-size: 100px;}
+   60%{font-size: 120px;}
+   80%{font-size: 100px;}
+   85%{font-size: 120px;}
+   90%{font-size: 100px;}
+   95%{font-size: 120px;}
+   100%{font-size: 100px;}
+}
+
+@keyframes hartbit{
+   0%{height:400px;width:400px;}
+   20%{height:600px;width:600px;}
+   40%{height:400px;width:400px;}
+   60%{height:600px;width:600px;}
+   80%{height:400px;width:400px;}
+   85%{height:600px;width:600px;}
+   90%{height:400px;width:400px;}
+   95%{height:600px;width:600px;}
+   100%{height:400px;width:400px;}
+}
